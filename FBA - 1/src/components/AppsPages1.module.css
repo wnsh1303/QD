@@ -1,0 +1,204 @@
+.smartHomeIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  min-height: 22px;
+}
+.dashboard {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.badge,
+.div {
+  align-self: stretch;
+}
+.div {
+  width: 9px;
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.badge {
+  width: 22px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-opacity-color-primary-primary-16);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--light-basic-typography-paragraph-small-semi-bold-size);
+  color: var(--light-solid-color-primary-primary-500-base);
+}
+.chevronDownIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.list {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  width: 14px;
+  height: 2px;
+  position: relative;
+}
+.vectorParent {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.watchlist {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.chevronRightIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.list1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  color: var(--color-gray-500);
+}
+.vectorIcon3 {
+  height: 22px;
+  width: 21px;
+  position: relative;
+}
+.vectorIcon4 {
+  height: 54.55%;
+  width: 23.64%;
+  position: absolute;
+  margin: 0 !important;
+  top: 22.73%;
+  right: 38.18%;
+  bottom: 22.73%;
+  left: 38.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.transactionIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs-5);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.transaction {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.chevronRightIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.list2 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.vectorIcon5 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.vectorIcon6 {
+  height: 66.82%;
+  width: 27.73%;
+  position: absolute;
+  margin: 0 !important;
+  top: 20%;
+  right: 39.09%;
+  bottom: 13.18%;
+  left: 33.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.layer25 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.withdrawl {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.chevronRightIcon2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.appsPages,
+.list3 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.list3 {
+  border-radius: var(--br-7xs);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-4xs) var(--padding-base);
+}
+.appsPages {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm);
+  text-align: left;
+  font-size: var(--light-basic-typography-paragraph-size);
+  color: var(--color-lightslategray);
+  font-family: var(--light-basic-typography-paragraph-small-semi-bold);
+}

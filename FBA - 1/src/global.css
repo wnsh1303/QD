@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-zen-kaku-gothic-antique: "Zen Kaku Gothic Antique";
+  --light-basic-typography-paragraph-small-semi-bold: "Public Sans";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --light-basic-typography-caption-size: 0.688rem;
+  --font-size-smi-8: 0.8rem;
+  --font-size-base: 1rem;
+  --font-size-2xs-2: 0.638rem;
+  --font-size-2xs-3: 0.644rem;
+  --font-size-12xl-3: 1.956rem;
+  --font-size-lgi: 1.188rem;
+  --font-size-6xl: 1.563rem;
+  --font-size-3xl: 1.375rem;
+  --font-size-lg: 1.125rem;
+  --light-basic-typography-paragraph-small-semi-bold-size: 0.813rem;
+  --light-basic-typography-paragraph-size: 0.938rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+  --font-size-3xs: 0.625rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-13xl: 2rem;
+
+  /* Colors */
+  --text-10: #a9a9a9;
+  --text-80: #9a9a9a;
+  --color-midnightblue: #013399;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-900: #fafafa;
+  --color-gray-300: #838383;
+  --color-gray-100: #757575;
+  --color-gray-400: #2c2c2c;
+  --color-gray-500: #23272e;
+  --color-gray-200: #212121;
+  --color-gray-600: rgba(255, 255, 255, 0.8);
+  --color-gray-700: rgba(255, 255, 255, 0.6);
+  --color-gray-800: rgba(131, 131, 131, 0.5);
+  --color-dimgray-100: #616161;
+  --color-dimgray-200: #545454;
+  --color-gainsboro: #e0e0e0;
+  --light-solid-color-extra-divider: #dbdade;
+  --light-solid-color-primary-primary-500-base: #7367f0;
+  --light-opacity-color-primary-primary-16: rgba(115, 103, 240, 0.16);
+  --color-lightslategray: #8b909a;
+  --color-whitesmoke-100: #f3f5f8;
+  --color-whitesmoke-200: #f3f4f8;
+  --stroke: #383838;
+  --color-blue: #6425fe;
+  --color-blueviolet: #8a4dff;
+  --color-crimson-100: #e8464c;
+  --color-crimson-200: #c72845;
+  --color-mediumseagreen: #1eb564;
+  --sec-100: #1fcb4f;
+  --sec-1001: #ffc01e;
+  --color-violet: #f8a5ff;
+  --color-lightgreen: #c7ffa5;
+  --color-yellowgreen: #77b900;
+  --color-navajowhite: #ffe5a5;
+  --color-mediumpurple: #b79bff;
+  --color-red: #ff2f2f;
+  --color-paleturquoise: #a6f7e2;
+
+  /* Gaps */
+  --gap-19xl: 2.375rem;
+  --gap-lg: 1.125rem;
+  --gap-base: 1rem;
+  --gap-5xs: 0.5rem;
+  --gap-3xs: 0.625rem;
+  --gap-7xs: 0.375rem;
+  --gap-xl: 1.25rem;
+  --gap-9xs: 0.25rem;
+  --gap-13xl: 2rem;
+  --gap-2xl: 1.313rem;
+  --gap-sm-3: 0.831rem;
+  --gap-5xl-4: 1.525rem;
+  --gap-sm-7: 0.856rem;
+  --gap-27xl-7: 2.919rem;
+  --gap-smi-1: 0.756rem;
+  --gap-4xl-1: 1.444rem;
+  --gap-mini: 0.938rem;
+  --gap-base-1: 0.944rem;
+  --gap-20xl-1: 2.444rem;
+  --gap-xs: 0.75rem;
+
+  /* Paddings */
+  --padding-54xl: 4.563rem;
+  --padding-xl: 1.25rem;
+  --padding-17xl: 2.25rem;
+  --padding-mid-5: 1.094rem;
+  --padding-xs-9: 0.744rem;
+  --padding-14xl: 2.063rem;
+  --padding-3xs-4: 0.588rem;
+  --padding-base: 1rem;
+  --padding-6xs-4: 0.4rem;
+  --padding-11xl: 1.875rem;
+  --padding-722xl: 46.313rem;
+  --padding-sm: 0.875rem;
+  --padding-4xs: 0.563rem;
+  --padding-9xs: 0.25rem;
+  --padding-7xs: 0.375rem;
+  --padding-mini: 0.938rem;
+  --padding-11xs: 0.125rem;
+  --padding-11xs-7: 0.106rem;
+  --padding-12xs-5: 0.031rem;
+  --padding-33xl: 3.25rem;
+  --padding-37xl: 3.5rem;
+  --padding-xs: 0.75rem;
+  --padding-10xs: 0.188rem;
+  --padding-3xs: 0.625rem;
+  --padding-5xs: 0.5rem;
+  --padding-2xl: 1.313rem;
+  --padding-61xl: 5rem;
+  --padding-mid: 1.063rem;
+  --padding-5xl: 1.5rem;
+  --padding-smi-5: 0.781rem;
+  --padding-base-5: 1.031rem;
+  --padding-21xl: 2.5rem;
+  --padding-7xl: 1.625rem;
+  --padding-11xs-3: 0.081rem;
+  --padding-7xs-9: 0.369rem;
+  --padding-lgi-5: 1.219rem;
+  --padding-8xs-1: 0.256rem;
+  --padding-2xl-5: 1.344rem;
+  --padding-20xl: 2.438rem;
+  --padding-lg: 1.125rem;
+  --padding-12xs: 0.063rem;
+  --padding-2xs: 0.688rem;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-7xs: 6px;
+  --br-xl: 20px;
+  --br-81xl: 100px;
+  --br-6xs-7: 6.7px;
+
+  /* Effects */
+  --light-gray-gray-sm: 0px 2px 4px rgba(165, 163, 174, 0.3);
+}

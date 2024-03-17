@@ -1,0 +1,127 @@
+.alreadyAMember,
+.startYour14Day {
+  align-self: stretch;
+  position: relative;
+}
+.startYour14Day {
+  font-size: var(--font-size-12xl-3);
+  letter-spacing: -0.5px;
+  line-height: 2.344rem;
+}
+.alreadyAMember {
+  color: var(--color-gray-100);
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkbox {
+  accent-color: #909090;
+  margin: 0;
+  height: 1.438rem;
+  width: 1.406rem;
+  position: relative;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.terms {
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  text-decoration: underline;
+  line-height: 1.408rem;
+  font-family: var(--font-zen-kaku-gothic-antique);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 4.063rem;
+}
+.checkboxlabel {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.createAnAccount {
+  width: 4.5rem;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 1.76rem;
+  font-weight: 500;
+  font-family: var(--font-zen-kaku-gothic-antique);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 4.5rem;
+}
+.btnPrytemplate2,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.btnPrytemplate2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid-5) var(--padding-xl);
+  background-color: var(--color-gray-200);
+  align-items: center;
+  justify-content: center;
+}
+.btnPrytemplate2:hover {
+  background-color: var(--color-dimgray-200);
+}
+.frameParent {
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.orUse,
+.terms1 {
+  position: relative;
+  line-height: 1.408rem;
+  display: inline-block;
+}
+.orUse {
+  width: 1.125rem;
+  color: var(--color-black);
+  min-width: 1.125rem;
+}
+.terms1 {
+  width: 9.5rem;
+  font-size: var(--font-size-2xs);
+  text-decoration: underline;
+  color: var(--color-midnightblue);
+  text-align: right;
+  cursor: pointer;
+}
+.startYour14DayFreeTrialParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-smi-8);
+  color: var(--color-gray-200);
+  font-family: var(--font-zen-kaku-gothic-antique);
+}
+@media screen and (max-width: 750px) {
+  .startYour14Day {
+    font-size: var(--font-size-6xl);
+    line-height: 1.875rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .startYour14Day {
+    font-size: var(--font-size-lgi);
+    line-height: 1.375rem;
+  }
+}

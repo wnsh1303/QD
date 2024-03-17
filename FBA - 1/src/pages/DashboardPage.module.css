@@ -1,0 +1,192 @@
+.logoIcon {
+  height: 24px;
+  width: 28px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  min-height: 24px;
+}
+.fbaQuant {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.logo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-33xl) var(--padding-xl)
+    var(--padding-37xl);
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-500);
+}
+.mainMenu {
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  min-width: 65px;
+}
+.section {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-11xl);
+}
+.todo {
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  min-width: 31px;
+}
+.section1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-mini);
+}
+.settings {
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  min-width: 55px;
+}
+.section2 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-mini);
+}
+.userCircleIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  min-height: 22px;
+}
+.manageAccount {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.badge,
+.div {
+  align-self: stretch;
+}
+.div {
+  width: 9px;
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.badge {
+  width: 22px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-opacity-color-primary-primary-16);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--light-basic-typography-paragraph-small-semi-bold-size);
+  color: var(--light-solid-color-primary-primary-500-base);
+}
+.chevronRightIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.list {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.components {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm);
+  font-size: var(--light-basic-typography-paragraph-size);
+}
+.components,
+.menu,
+.menu1,
+.dashboardPage {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu1 {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 484px;
+}
+.menu,
+.dashboardPage {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.menu {
+  width: 280px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.dashboardPage {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-gray-900);
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--light-basic-typography-caption-size);
+  color: var(--color-lightslategray);
+  font-family: var(--light-basic-typography-paragraph-small-semi-bold);
+}
+@media screen and (max-width: 900px) {
+  .menu1 {
+    padding-bottom: 315px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fbaQuant {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .logo,
+  .menu1 {
+    box-sizing: border-box;
+  }
+  .logo {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .menu1 {
+    padding-bottom: 205px;
+  }
+}
